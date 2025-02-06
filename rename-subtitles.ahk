@@ -8,6 +8,7 @@ suffix := MyGui.Add("Edit", "x+m w120", ".Chinese")
 MyGui.Add("Text", "xm", "Subtitle file is")
 locaiton := MyGui.Add("DropDownList", "Choose1 x+m w80", ["after", "before"])
 MyGui.Add("Text", "x+m", "the media file")
+MyGui.Add("Text", "xm", "Select a video file in explorer and press F1 to rename")
 
 MyGui.OnEvent("Close", ExitAppOnClose)
 MyGui.Show()
