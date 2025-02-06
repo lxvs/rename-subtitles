@@ -3,11 +3,11 @@
 MyGui := Gui(, "Rename subtitles")
 
 MyGui.Add("Text", , "Suffix:")
-suffix := MyGui.Add("Edit", "x+5 w100", ".Chinese")
+suffix := MyGui.Add("Edit", "x+m w120", ".Chinese")
 
 MyGui.Add("Text", "xm", "Subtitle file is")
-locaiton := MyGui.Add("DropDownList", "Choose1 x+5 w50", ["after", "before"])
-MyGui.Add("Text", "x+5", "the media file")
+locaiton := MyGui.Add("DropDownList", "Choose1 x+m w80", ["after", "before"])
+MyGui.Add("Text", "x+m", "the media file")
 
 MyGui.OnEvent("Close", ExitAppOnClose)
 MyGui.Show()
