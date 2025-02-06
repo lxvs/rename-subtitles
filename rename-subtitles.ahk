@@ -10,6 +10,7 @@ MyGui.Add("Text", "xm", "Subtitle file is")
 locaiton := MyGui.Add("DropDownList", "Choose1 x+m w80", ["after", "before"])
 MyGui.Add("Text", "x+m", "the media file")
 MyGui.Add("Text", "xm", "Select a video file in explorer and press F1 to rename")
+MyGui.Add("Text", "xm", "Version: 0.1.0")
 
 MyGui.OnEvent("Close", ExitAppOnClose)
 MyGui.Show()
